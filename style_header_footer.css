@@ -8,13 +8,17 @@
 
 /*header*/
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #2e948a;
-    max-width: 100%;
-    flex-wrap: wrap;
 }
 
 .logo_dindin {
@@ -68,8 +72,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: #2e948a;
-    max-width: 100%;
-    flex-wrap: wrap;
+    width: 100%;
+    flex-flow: row wrap;
 }
 
 .container_footer_logo {
@@ -138,7 +142,106 @@ footer ul li a:hover {
     transition: 100ms;
 }
 
+@media only screen and (max-width: 768px) {
+    .logo_dindin {
+        width: 100%;
+        padding-left: 33%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    
+    header {
+        flex-wrap: row wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    header ul {
+        padding-right: 15%;
+        
+    }
+    
+    header ul li {
+        padding: 10%;
+    
+    }
+    
+    .container_footer_logo {
+        width: 100%;
+        padding-left: 29%;
+        margin-bottom: 5%;
+    }
+    
+    footer {
+        flex-wrap: row wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .container_footer_lista {
+        padding-left: 40%;
+        margin-top: 0;
+        margin-bottom: 5%;
+    
+    }
+    
+    .container_footer_links {
+        padding-left: 15%;
+        margin-bottom: 5%;
+    }
+    
+    }
 
+@media only screen and (max-width: 480px) {
+    .logo_dindin {
+        width: 100%;
+        padding-left: 23%;
+        margin-top: 5%;
+        margin-bottom: 0;
+    }
+
+    header {
+        flex-wrap: row wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    header ul {
+        padding-right: 24%;
+        
+    }
+
+    header ul li {
+        padding: 10%;
+
+    }
+
+    .container_footer_logo {
+        width: 100%;
+        padding-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    footer {
+        flex-wrap: row wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .container_footer_lista {
+        padding-left: 40%;
+        margin-top: 0;
+        margin-bottom: 5%;
+
+    }
+
+    .container_footer_links {
+        padding-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    
+}
 
 
 
