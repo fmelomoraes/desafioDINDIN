@@ -1,0 +1,651 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main */
+
+/* Título */
+
+main {
+    background-color: #e5e5e5;
+}
+
+.rectangle {
+    width: 1244px;
+    height: 5px;
+    background-color: #c4c4c4;
+    margin-left: 82px;
+    margin-right: 114px;
+    margin-bottom: 107px;
+}
+
+.container_cursos2 .page_title {
+    padding-top: 81px;
+    padding-left: 82px;
+}
+
+.container_cursos2 .page_title h1 {
+    width: 263px;
+    height: 69px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #ff4081;
+}
+
+.container_cursos2 .page_title h5 {
+    width: 317px;
+    height: 23px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    padding-bottom: 95px;
+    color: #555555;
+}
+
+/* container_cursos_1 */
+
+.container_cursos_1 {
+    margin: 0;
+    margin-bottom: 68px
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;   
+}
+
+.img_ilustra-poupando {
+    width: 545px;
+    height: 381px;
+    padding-left: 112px;
+    padding-right: 0;
+}
+
+.investimento_para_iniciantes2 {
+    padding-top: 20px;
+    padding-left: 53px;
+    padding-right: 171px;
+}
+
+.investimento_para_iniciantes2 h5 {
+    width: 512px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #ff4081;
+    margin-bottom: 37px;
+}
+
+.investimento_para_iniciantes2 p {
+    width: 724px;
+    height: 105px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align:justify;
+    margin-bottom: 53px;
+}
+
+.investimento_para_iniciantes2 button {
+    width: 233px;
+    height: 51px;
+    border-radius: 62px;
+    border: 2px solid #419488;
+    outline: none;
+    background-color: #2e948a;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.investimento_para_iniciantes2 button:hover {
+    color: #206b63;
+    border: 2px solid #206b63;
+    font-weight: 500;
+    transition: 100ms;
+}
+
+/*container_cursos_2*/
+
+.container_cursos_2 {
+    margin: 0;
+    margin-bottom: 68px
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;   
+}
+
+.img_ilustra-investimento {
+    width: 545px;
+    height: 381px;
+    padding-left: 112px;
+    padding-right: 0;
+}
+
+.investimento_para_iniciantes3 {
+    padding-top: 5px;
+    padding-left: 53px;
+    padding-right: 171px;
+}
+
+.investimento_para_iniciantes3 h5 {
+    width: 512px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #ff4081;
+    margin-bottom: 37px;
+}
+
+.investimento_para_iniciantes3 p {
+    width: 724px;
+    height: 105px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align:justify;
+    margin-bottom: 53px;
+}
+
+.investimento_para_iniciantes3 button {
+    width: 233px;
+    height: 51px;
+    border-radius: 62px;
+    border: 2px solid #419488;
+    outline: none;
+    background-color: #2e948a;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.investimento_para_iniciantes3 button:hover {
+    color: #206b63;
+    border: 2px solid #206b63;
+    font-weight: 500;
+    transition: 100ms;
+}
+
+/*container_cursos_3*/
+
+.container_cursos_2 {
+    margin: 0;
+    margin-bottom: 68px
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;   
+}
+
+.img_ilustra-investimento {
+    width: 545px;
+    height: 385px;
+    padding-left: 112px;
+    padding-right: 0;
+}
+
+.investimento_para_iniciantes3 {
+    padding-top: 5px;
+    padding-left: 53px;
+    padding-right: 171px;
+}
+
+.investimento_para_iniciantes3 h5 {
+    width: 373px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #ff4081;
+    margin-bottom: 37px;
+}
+
+.investimento_para_iniciantes3 p {
+    width: 724px;
+    height: 105px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align:justify;
+    margin-bottom: 53px;
+}
+
+.investimento_para_iniciantes3 button {
+    width: 233px;
+    height: 51px;
+    border-radius: 62px;
+    border: 2px solid #419488;
+    outline: none;
+    background-color: #2e948a;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.investimento_para_iniciantes3 button:hover {
+    color: #206b63;
+    border: 2px solid #206b63;
+    font-weight: 500;
+    transition: 100ms;
+}
+.container_cursos_2 {
+    margin: 0;
+    margin-bottom: 68px
+}
+
+/*container_cursos3*/
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;   
+}
+
+.img_ilustra-independencia {
+    width: 534px;
+    height: 498px;
+    padding-left: 128px;
+    padding-right: 0;
+    margin-bottom: 202px;
+}
+
+.investimento_para_iniciantes4 {
+    padding-top: 55px;
+    padding-right: 171px;
+    padding-left: 26px;
+}
+
+.investimento_para_iniciantes4 h5 {
+    width: 425px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #ff4081;
+    margin-bottom: 37px;
+    padding-left: 0px;
+}
+
+.investimento_para_iniciantes4 p {
+    width: 724px;
+    height: 105px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align:justify;
+    margin-bottom: 26px;
+    padding-left: 26px;
+}
+
+.investimento_para_iniciantes4 button {
+    width: 233px;
+    height: 51px;
+    border-radius: 62px;
+    border: 2px solid #419488;
+    outline: none;
+    background-color: #2e948a;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    cursor: pointer;
+    margin-left: 26px;
+    margin-bottom: 10%;
+}
+
+.investimento_para_iniciantes4 button:hover {
+    color: #206b63;
+    border: 2px solid #206b63;
+    font-weight: 500;
+    transition: 100ms;
+}
+
+/*Media query*/
+
+@media only screen and (max-width: 1920px) {
+    .rectangle {
+        width: auto;
+    }
+
+    .row1 {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .row2 {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .row3 {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 10%;
+
+    }
+
+}
+
+@media only screen and (max-width: 1366px) {
+    .rectangle {
+        width: auto;
+    }
+
+    .row1 {
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .container_cursos_1 {
+        margin-bottom: 0;
+    }
+
+    .img_ilustra-poupando {
+        padding-left: 0;
+        padding-bottom: 53px;
+    }
+    
+    .investimento_para_iniciantes2 p {
+        width: auto;
+        margin-right: 171px;
+        margin-bottom: 53px;
+    }
+
+    .investimento_para_iniciantes2 button {
+        margin-left: 0%;
+    }
+
+    .img_ilustra-poupando {
+        margin-bottom: 5%;
+    }
+
+    .row2 {
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .container_cursos_2 {
+        margin-bottom: 0;
+    }
+
+    .img_ilustra-investimento {
+        padding-left: 0;
+    }
+
+    .investimento_para_iniciantes3 p {
+        width: auto;
+        margin-right: 171px;
+        margin-bottom: 70px;
+    }
+
+    .investimento_para_iniciantes3 button {
+        margin-left: 0%;
+    }
+
+    .img_ilustra-investimento {
+        margin-bottom: 5%;
+    }
+
+
+    .row3 {
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .container_cursos3 {
+        padding-bottom: 202px;
+    }
+
+    .img_ilustra-independencia {
+        padding-left: 0;
+    }
+
+    .investimento_para_iniciantes4 h5 {
+        margin-left: 0%;
+    }
+
+    .investimento_para_iniciantes4 p {
+        width: auto;
+        margin-right: 171px;
+        margin-bottom: 26px;
+    }
+
+    .investimento_para_iniciantes4 button {
+        margin-left: 26px;
+        margin-bottom: 20%;
+    }
+
+    .img_ilustra-independencia {
+        margin-bottom: 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .rectangle {
+        width: auto;
+    }
+    
+    .row1 {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .img_ilustra-poupando {
+        padding-left: 15%;
+    }
+    
+    .investimento_para_iniciantes2 h5 {
+        padding-left: 0;
+    }
+    
+    .investimento_para_iniciantes2 p {
+        width: auto;
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .investimento_para_iniciantes2 button {
+        margin-left: 23%;
+        margin-bottom: 10%;
+    }
+
+    .img_ilustra-poupando {
+        margin-bottom: 5%;
+    }
+
+    .row2 {
+        flex-wrap: wrap;
+        width: 100%;        
+        margin-left: 10%;
+    }
+
+    .img_ilustra-investimento {
+        padding-left: 15%;
+    }
+
+    .investimento_para_iniciantes3 h5 {
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .investimento_para_iniciantes3 p {
+        width: auto;
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .investimento_para_iniciantes3 button {
+        margin-left: 23%;
+        margin-bottom: 10%;
+    }
+
+    .img_ilustra-investimento {
+        margin-bottom: 5%;
+    }
+
+    .row3 {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .img_ilustra-independencia {
+        padding-left: 15%;
+    }
+
+    .investimento_para_iniciantes4 {
+        padding-left: 7%;
+        margin-right: 0;
+    }
+    
+    .investimento_para_iniciantes4 h5 {
+        margin-left: 0;
+    }
+
+    .investimento_para_iniciantes4 p {
+        width: auto;
+        padding-left: 0;
+        margin-right: 0;
+        margin-bottom: 10%;
+    }
+
+    .investimento_para_iniciantes4 button {
+        margin-left: 23%;
+        margin-bottom: 20%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .rectangle {
+        width: 70%;
+    }
+    
+    .container_cursos2 .page_title {
+        padding-top: 5%;
+        padding-left: 82px;
+    }
+    
+    .row1 {
+        flex-wrap: wrap;
+        width: 100%;
+        margin:0;
+    }
+
+    .img_ilustra-poupando {
+        padding-left: 10%;
+    }
+
+    .investimento_para_iniciantes2 {
+        margin: 0;
+        width: auto;
+        padding-left: 0;
+    }
+
+    .investimento_para_iniciantes2 h5 {
+        font-size: 200%;
+        padding-left: 5%;
+    }
+
+    .investimento_para_iniciantes2 p {
+        width: auto;
+        padding-left: 10%;
+        margin-right: 15%;
+    }
+
+    .investimento_para_iniciantes2 button {
+        margin-left: 25%;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+
+    .row2 {
+        flex-wrap: wrap;
+        width: 100%;        
+        margin: 0;
+    }
+
+    .img_ilustra-investimento {
+        padding-left: 10%;
+    }
+
+    .investimento_para_iniciantes3 p {
+        width: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+    
+    }
+
+    .investimento_para_iniciantes3 button {
+        margin-left: 20%;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+
+
+    .row3 {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+    }
+
+    .img_ilustra-independencia {
+        padding-left: 10%;
+    }
+
+    .investimento_para_iniciantes4 h5 {
+        margin-left: 0%;
+    }
+
+    .investimento_para_iniciantes4 p {
+        width: auto;
+        margin: 5%;
+        margin-bottom: 10%;
+        margin-left: 0%;
+    }
+
+    .investimento_para_iniciantes4 button {
+        margin-left: 23%;
+        margin-top: 20%;
+        margin-bottom: 0;
+    }
+  
+}
+
