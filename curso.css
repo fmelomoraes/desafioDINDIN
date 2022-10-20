@@ -7,130 +7,10 @@
 
 body {
     font-size: 100%;
+    margin: auto;
 }
 
-/* INÍCIO HEADER/FOOTER */
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #2e948a;
-}
-
-.logo_dindin {
-    padding-left: 82px;
-    margin-top: 20px;
-    margin-bottom: 26px;
-    cursor: pointer;
-}
-
-a {
-    text-decoration: none;
-    color: #fdfdfd;
-    cursor: pointer;
-}
-
-ul {
-    list-style: none;
-
-}
-
-
-header ul {
-    display: flex;
-    padding-right: 56px;
-}
-
-header ul li {
-    padding: 47px 42px 47px 0px;
-    font-weight: 700;
-    size: 20px;
-    line-height: 22.98px;
-}
-
-header ul li a:hover {
-    color: #206b63;
-    font-weight: 500;
-    transition: 100ms;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #2e948a;
-    width: 100%;
-    flex-flow: row wrap;
-}
-
-.container_footer_logo {
-    padding-left: 128px;
-    margin-top: 53px;
-    margin-bottom: 52.57px;
-    cursor: pointer;
-}
-
-.container_footer_lista {
-    align-items: flex-start;
-    padding-right: 320px;
-    margin-top: 53px;
-    margin-bottom: 71px;
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: 400;
-}
-
-footer ul {
-    flex-shrink: 183px;
-    justify-content: center;
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: 400;
-}
-
-footer ul li {
-    padding: 4px;
-}
-
-footer ul li a {
-    cursor: pointer;
-}
-
-footer ul li a:hover {
-    color: #206b63;
-    font-weight: 500;
-    transition: 100ms;
-}
-
-.container_footer_links ul li {
-    justify-content: center;
-    padding-right: 137px;
-    font-weight: 400;
-}
-
-.container_footer_links button {
-    width: 289px;
-    height: 51px;
-    border-radius: 62px;
-    border: 2px solid #fff;
-    outline: none;
-    background-color: #2e948a;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 23px;
-    cursor: pointer;
-}
-
-.container_footer_links button:hover {
-    color: #206b63;
-    border: 2px solid #206b63;
-    font-weight: 500;
-    transition: 100ms;
-}
-
-/* FIM HEADER/FOOTER */
+/* COMEÇO CONTEÚDO */
 
 h1 {
     font-family: 'Ubuntu', sans-serif;
@@ -153,6 +33,7 @@ p {
     font-weight: 300;
     color: #000; 
     font-size: 21px; 
+    padding-bottom: 30px;
 }
 
 
@@ -164,15 +45,32 @@ hr {
 
 .abertura {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
-    gap: 0px;
+    gap: 30px;
     align-items: center;
-    padding: 100px 300px;
+    align-content: space-around;
+    padding: 60px 30px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
 }
 
-.abertura div {
-    padding-right: 120px;
+.nome_curso {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.chamada_curso {
+    width: 60%;
+}
+
+.img_curso {
+    width: 40%;
 }
 
 .caixa_aulas {
@@ -180,109 +78,40 @@ hr {
     flex-direction: column;
     width: 100%;
     background-color: #f6f6f6;
-    gap: 60px;
+    gap: 30px;
     align-items: center;
-    padding: 100px 300px;
+    padding: 60px 30px;
+    box-sizing: border-box;
 }
 
 .container {
     width: 100%;
     max-width: 1440px;
     display: flex;
+    flex-direction: row;
     gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    width: 60%;
+}
+
+.texto {
+    width: 40%;
 }
 
 video {
-    border: solid 1px #000;
-    width: 460px;
-    margin-right: 40px;
+    width: 100%;
 }
+
+/* FIM CONTEÚDO */
 
 /* COMEÇO @MEDIA QUERY */
 
-@media only screen and (max-width: 768px) {
-    .logo_dindin {
-        width: 100%;
-        padding-left: 33%;
-        margin-top: 5%;
-        margin-bottom: 3%;
-    }
-    
-    header {
-        flex-wrap: row wrap;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    header ul {
-        padding-right: 15%;
-    }
-    
-    header ul li {
-        padding: 10%;
-    }
-    
-    .container_footer_logo {
-        width: 100%;
-        padding-left: 29%;
-        margin-bottom: 5%;
-    }
-    
-    footer {
-        flex-wrap: row wrap;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    
-    .container_footer_lista {
-        padding-left: 40%;
-        margin-top: 0;
-        margin-bottom: 5%;
-    }
-    
-    .container_footer_links {
-        padding-left: 15%;
-        margin-bottom: 5%;
-    }
-
-    /* COMEÇO PROPRIEDADES CONTEÚDO */
-
-    .abertura {
-        flex-direction: column;
-        width: 100%;
-        gap: 0px;
-        padding: 50px 300px;
-    }
-    
-    .abertura div {
-        padding: 30px;
-    }
-    
-    .caixa_aulas {
-        width: 100%;
-        background-color: #f6f6f6;
-        gap: 30px;
-        padding: 50px 150px;
-    }
-    
-    .container {
-        width: 100%;
-        max-width: 1440px;
-        display: flex;
-        gap: 30px;
-    }
-
-    p {
-        font-family: 'Ubuntu', sans-serif;
-        font-weight: 300;
-        color: #000; 
-        font-size: 21px;
-        text-align: justify;
-    }
-
-}
-
 @media only screen and (max-width: 480px) {
+
     .logo_dindin {
         width: 100%;
         padding-left: 23%;
@@ -330,5 +159,170 @@ video {
         margin-bottom: 5%;
     }
 
+    .abertura {
+        max-width: fit-content;
+        height: 900px;
+        padding-top: 40px;
+    }
+
+    .nome_curso {
+        flex-direction: column-reverse;
+    }
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .chamada_curso {
+        width: 100%;
+        text-align: justify;
+        margin: auto;
+    }
+
+    .img_curso {
+        width: fit-content;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+}
+
+    .texto {
+        text-align: justify;
+    }
+
+    .video {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .logo_dindin {
+        width: 100%;
+        padding-left: 33%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
     
+    header {
+        flex-wrap: row wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    header ul {
+        padding-right: 15%;
+    }
+    
+    header ul li {
+        padding: 10%;
+    }
+    
+    .container_footer_logo {
+        width: 100%;
+        padding-left: 29%;
+        margin-bottom: 5%;
+    }
+    
+    footer {
+        flex-wrap: row wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .container_footer_lista {
+        padding-left: 40%;
+        margin-top: 0;
+        margin-bottom: 5%;
+    }
+    
+    .container_footer_links {
+        padding-left: 15%;
+        margin-bottom: 5%;
+    }
+
+    /* INÍCIO FORMATAÇÃO */
+
+.nome_curso {
+    display: flex;
+    flex-direction: column;
+}
+
+.abertura {
+    max-width: fit-content;
+    height: 780px;
+    padding: 40px;
+}
+
+.nome_curso {
+    flex-direction: column-reverse;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.chamada_curso {
+    width: 100%;
+    text-align: justify;
+    margin: auto;
+}
+
+.img_curso {
+    width: fit-content;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto {
+    text-align: justify;
+    width: 100%;
+}
+
+.video {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+.abertura {
+    display: flex;
+    max-width: fit-content;
+}
+
+h1 {
+    font-size: 45px;
+    padding-bottom: 40px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.img_curso {
+    width: fit-content;
+}
+
 }
