@@ -1,0 +1,64 @@
+* {
+
+    padding: 0;
+    font-size: 100%;
+    margin: auto;
+}
+
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 949px;
+
+    background: #FFFFFF;
+}
+
+.container_1 {
+    display: flex;
+    justify-content: space-between;
+    background: #F7F7F7;
+
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+
+.ilustra_contato {
+    position: absolute;
+    width: 444px;
+    height: 444px;
+    left: 833px;
+    top: 199px;
+}
+
+h1 {
+    
+    left: 0%;
+    right: 68.95%;
+    top: 0%;
+    bottom: 89.02%;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+
+    color: #FF4081;
+}
+
+.nome {
+    box-sizing: border-box;
+
+
+left: 0.6%;
+right: 0%;
+top: 21.48%;
+bottom: 70.88%;
+
+background: #FFFFFF;
+border: 1px solid #686868;
+border-radius: 7px;
+}
