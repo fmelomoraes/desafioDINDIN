@@ -216,7 +216,7 @@ span {
     margin-left: 10%;
     padding-right: 10%;
     margin-bottom: 150px;
-    background-color: #F7F7F7
+    background-color: #e5e5e5
 }
 
 .t3 {
@@ -252,7 +252,7 @@ span {
     left: 0px;
     top: 2260px;
 
-    background-color: #F7F7F7
+    background-color: #e5e5e5
 }
 
 .pg2 {
@@ -296,7 +296,7 @@ span {
 /*penúltimo container*/
 
 .bloco {
-    background: #F7F7F7;
+    background: #e5e5e5;
 }
 
 .titulo_flex {
@@ -397,7 +397,4 @@ span {
     transition: 200ms;
 }
 
-.bloco {
-    background-color: #e5e5e5;
-}
 
