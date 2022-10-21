@@ -161,16 +161,17 @@ footer ul li a:hover {
     header {
         flex-wrap: row wrap;
         flex-direction: column;
-        justify-content: space-between;
+        align-items: center;
     }
     
     header ul {
-        padding-right: 15%;
+        margin: 0;
         
     }
     
     header ul li {
-        padding: 10%;
+        padding: 5%;
+        padding-bottom: 20%;
     
     }
     
@@ -215,12 +216,13 @@ footer ul li a:hover {
     }
 
     header ul {
-        padding-right: 24%;
+        margin-top: 5%;
         
     }
 
     header ul li {
-        padding: 10%;
+        padding: 5%;
+        padding-bottom: 15%;
 
     }
 
