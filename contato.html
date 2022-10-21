@@ -5,113 +5,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Desafio XP do Grupo #15 - GAMA Academy #46">
+    <meta name="author" content="Fabiano Moraes, Giovana Anello e Renan Oshima">
+    <title>Contato - DINDIN Educação Financeira</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Caminho para CSS -->
     <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="style_header_footer.css">
     <title>Contato</title>
 </head>
 
 <body>
+
     <header>
         <div class="logo_dindin">
-            <img src="./dindin-imagens/logo-header.png" alt="logo_dindin">
+            <a href="https://fmelomoraes.github.io/desafioDINDIN/">
+                <img src="./dindin-imagens/logo-header.png" alt="logo_dindin">
+            </a>
         </div>
 
-        <nav class="menu">
+        <nav class="nav_header">
             <ul>
                 <li>
-                    <a target="_blank" href="#">CURSOS</a>
+                    <a target="_self" href="https://fmelomoraes.github.io/desafioDINDIN/Cursos.html">CURSOS</a>
                 </li>
                 <li>
-                    <a target="_blank" href="#">BLOG</a>
+                    <a target="_self" href="https://fmelomoraes.github.io/desafioDINDIN/Blog.html">BLOG</a>
                 </li>
                 <li>
-                    <a target="_blank" href="#">CONTATO</a>
+                    <a target="_self" href="https://fmelomoraes.github.io/desafioDINDIN/contato.html">CONTATO</a>
                 </li>
             </ul>
         </nav>
+    </header>
 
         <main>
             <section class="container_1">
                 <div class="titulo">
                     <h1>Contato</h1>
-                </div>
-                <div class="nome">
+
                     <form action="">
-                        <input type="text" placeholder="nome">
+                        <input type="text" placeholder="Nome" class="inputs">
                     </form>
-                </div>
 
-                <div class="email">
                     <form action="">
-                        <input type="text" placeholder="email">
+                        <input type="text" placeholder="Email" class="inputs">
                     </form>
-                </div>
 
-                <div class="mensagem">
                     <form action="">
-                        <input type="text" placeholder="mensagem">
+                        <textarea name="message" rows="10" cols="30">Mensagem</textarea>
                     </form>
+
+                    <button class="botao_form">enviar</button>
                 </div>
 
-                <div class=b_enviar">
-                    <button>enviar</button>
-                </div>
-            </section>
-
-
-            <section class="container2">
                 <div class="ilustra_contato">
                     <img src="./dindin-imagens/ilustra-contato.png" alt="contato">
                 </div>
-
-
-                <div class="retangulo3"></div>
-                <p> <span class="destacar">Itaque earum rerum</span> hic tenetur a sapiente delectus, ut aut
-                    reiciendis
-                    voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-                </p>
-
-                <div class="botao_centro">
-                    <button>ver todos os posts</button>
-                </div>
-
-            </section>
-
-            <section class="container_4">
-                <div class="logo_rodape">
-                    <img src="./dindin-imagens/logo-footer.png" alt="">
-                </div>
-
-                <nav class="menu_rodape">
-                    <ul>
-                        <li>
-                            <a target="_blank" href="#">cursos</a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="#">blog</a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="#">contato</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="professor">
-                    <button>quero ser prof</button>
-                </div>
-
-                <div class="outro_link">
-                    <button>aqui tem outro link</button>
-                </div>
-
-            </section>
-
-
-
+                
             </section>
 
         </main>
-    </header>
+
+        <footer>
+            <section class="container_footer_logo">
+    
+                <div>
+                    <a href="https://fmelomoraes.github.io/desafioDINDIN/">
+                        <img src="./dindin-imagens/logo-footer.png" alt="Logo dindin">
+                    </a>
+                </div>
+            </section>
+    
+            <section class="container_footer_lista">
+    
+                <div class="lista_rodape">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a target="_self" href="https://fmelomoraes.github.io/desafioDINDIN/Cursos.html">cursos</a>
+                            </li>
+                            <li>
+                                <a target="_self" href="https://fmelomoraes.github.io/desafioDINDIN/Blog.html">blog</a>
+                            </li>
+                            <li>
+                                <a target="_self"
+                                    href="https://fmelomoraes.github.io/desafioDINDIN/contato.html">contato</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+    
+            <section class="container_footer_links">
+    
+                <ul>
+                    <li>
+                        <button onclick="window.location.href = 'https://fmelomoraes.github.io/desafioDINDIN/contato.html';">quero ser prof</button>
+                    </li>
+                    <li>
+                        <button>aqui tem outro link</button>
+                    </li>
+                </ul>
+    
+            </section>
+    
+        </footer>
 
 
 </body>
