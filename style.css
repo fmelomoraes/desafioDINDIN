@@ -24,11 +24,11 @@ body {
     height: 730px;
     width: 1440px;
 
-    
-left:90%;
-right: 14.31%;
-top: 8%;
-bottom: 76.13%;
+
+    left: 90%;
+    right: 14.31%;
+    top: 8%;
+    bottom: 76.13%;
 
 
 
@@ -39,28 +39,29 @@ bottom: 76.13%;
     position: absolute;
     width: 488px;
     height: 216px;
-    left: 400px;
+    left: 206px;
     top: 242px;
 
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 69px;
 
     color: #FF4081;
+
 }
 
 .corpo {
     position: absolute;
-    width: 350px;
+    width: 360px;
     height: 62px;
-    left: 400px;
+    left: 207px;
     top: 477px;
 
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 27px;
     line-height: 31px;
 
@@ -68,17 +69,15 @@ bottom: 76.13%;
 }
 
 .ilustra-banner {
-   
+
     position: absolute;
+
+
     height: 511px;
     width: 501px;
-    left: 1000px;
+    left: 733px;
     top: 252px;
     border-radius: 0px;
-
-    display: flex;
-
-
 
 
 }
@@ -89,18 +88,21 @@ bottom: 76.13%;
     position: absolute;
     width: 268px;
     height: 51px;
-    left: 400px;
+    left: 207px;
     top: 577px;
 
-    border: 3px solid #FF4081;
+    border: 2px solid #FF4081;
     border-radius: 62px;
 
 
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 27px;
     line-height: 31px;
+
+    color: #FF4081;
+
 }
 
 /*segunda parte dos banner's*/
@@ -416,7 +418,7 @@ span {
     width: 319px;
     left: 556px;
     top: 2671px;
-    
+
 
 }
 
@@ -442,8 +444,8 @@ span {
 
     box-sizing: border-box;
     position: absolute;
-   
-   
+
+
     border: 3px solid #FF4081;
     border-radius: 62px;
     font-family: 'Ubuntu', sans-serif;
@@ -456,8 +458,8 @@ span {
 
     height: 40px;
     width: 289px;
-    left:740px;
-    top:2600px;
+    left: 740px;
+    top: 2600px;
     border-radius: 62px;
 
 
