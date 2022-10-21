@@ -21,12 +21,14 @@ body {
 
 .banner_principal {
 
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
     height: 730px;
     width: 1440px;
+
+    
+left:90%;
+right: 14.31%;
+top: 8%;
+bottom: 76.13%;
 
 
 
@@ -37,7 +39,7 @@ body {
     position: absolute;
     width: 488px;
     height: 216px;
-    left: 200px;
+    left: 400px;
     top: 242px;
 
     font-family: 'Ubuntu', sans-serif;
@@ -53,7 +55,7 @@ body {
     position: absolute;
     width: 350px;
     height: 62px;
-    left: 200px;
+    left: 400px;
     top: 477px;
 
     font-family: 'Ubuntu', sans-serif;
@@ -66,12 +68,16 @@ body {
 }
 
 .ilustra-banner {
+   
     position: absolute;
     height: 511px;
     width: 501px;
-    left: 733px;
+    left: 1000px;
     top: 252px;
     border-radius: 0px;
+
+    display: flex;
+
 
 
 
@@ -83,7 +89,7 @@ body {
     position: absolute;
     width: 268px;
     height: 51px;
-    left: 200px;
+    left: 400px;
     top: 577px;
 
     border: 3px solid #FF4081;
