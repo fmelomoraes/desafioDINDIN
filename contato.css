@@ -1,64 +1,150 @@
 * {
-
+    margin: 0;
     padding: 0;
-    font-size: 100%;
-    margin: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
 }
-
 
 body {
-    position: relative;
-    width: 1440px;
-    height: 949px;
-
-    background: #FFFFFF;
+    font-size: 100%;
 }
+
+/* DIAGRAMAÇÃO TEXTO */
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #FF4081;
+    font-size: 40px;
+    padding-bottom: 45px;
+}
+
+/* DIAGRAMAÇÃO CONTEÚDO */
 
 .container_1 {
     display: flex;
-    justify-content: space-between;
-    background: #F7F7F7;
-
-    flex-direction: row;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    padding: 60px;
 }
 
+.botao_form {
+    cursor: pointer;
+    width: 108px;
+    height: 32px;
+    padding: 5px;
+    background-color: #FF4081;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    transition: 500ms;
+    min-width: fit-content;
+}
+
+.botao_form:hover {
+    background-color: #c51952;
+}
 
 .ilustra_contato {
-    position: absolute;
-    width: 444px;
-    height: 444px;
-    left: 833px;
-    top: 199px;
+    margin-left: 10%;
+}
+
+/* .titulo {
+    margin-right: 200px;
+} */
+
+textarea {
+    resize: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 500px;
+    border: 1px solid #686868;
+    margin-bottom: 15px;
+    color: #686868;
+}
+
+.inputs {
+    border-radius: 10px;
+    border: 1px solid #686868;
+    margin-bottom: 15px;
+    height: 30px;
+    width: 500px;
+    padding-left: 20px;
+}
+
+/* INÍCIO RESPONSIVIDADE */
+
+@media only screen and (max-width: 480px) {
+
+    * {
+        max-width: 100%;
+    }
+
+.container_1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    align-items: center;
+    padding: 30px 15%;
+    box-sizing: border-box;
+}
+
+.inputs {
+    height: 30px;
 }
 
 h1 {
-    
-    left: 0%;
-    right: 68.95%;
-    top: 0%;
-    bottom: 89.02%;
-
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 46px;
-
-    color: #FF4081;
+    text-align: center;
 }
 
-.nome {
-    box-sizing: border-box;
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+}
 
-left: 0.6%;
-right: 0%;
-top: 21.48%;
-bottom: 70.88%;
+@media only screen and (max-width: 768px) {
 
-background: #FFFFFF;
-border: 1px solid #686868;
-border-radius: 7px;
+    * {
+        max-width: 100%;
+    }
+
+    .container_1 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+* {
+    max-width: 100%;
+}
+
+.ilustra_contato {
+    margin-left: 5%;
+}
+
 }
