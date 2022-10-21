@@ -1,303 +1,254 @@
 * {
-
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
     padding: 0;
-    font-size: 100%;
-    margin: auto;
-
-
+    margin: 0;
+    box-sizing: border-box;
 }
 
-body {
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #e5e5e5;
+}
+
+main {
     width: 100%;
-
-
-    width: 1440px;
-    height: 3197px;
-
-    background: #FFFFFF;
-
 }
+
+/* Título */
 
 .banner_principal {
-
     display: flex;
-    height: 730px;
-    width: 1440px;
+    justify-items: center;
+    gap: 10%;
 
+}
 
-    left: 90%;
-    right: 14.31%;
-    top: 8%;
-    bottom: 76.13%;
-
-
-
-
+.introdução {
+    margin-left: 340px;
+    margin-top: 125px;
 }
 
 .principal {
-    position: absolute;
     width: 488px;
     height: 216px;
-    left: 206px;
-    top: 242px;
-
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 69px;
-
     color: #FF4081;
-
 }
 
 .corpo {
-    position: absolute;
     width: 360px;
-    height: 62px;
-    left: 207px;
-    top: 477px;
-
-    font-family: 'Ubuntu';
-    font-style: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-weight: 400;
     font-size: 27px;
     line-height: 31px;
-
     color: #555555;
 }
 
-.ilustra-banner {
-
-    position: absolute;
-
-
-    height: 511px;
-    width: 501px;
-    left: 733px;
-    top: 252px;
-    border-radius: 0px;
-
-
-}
-
-.banner_principal button {
-    box-sizing: border-box;
-
-    position: absolute;
+.botao_titulo_1 {
     width: 268px;
     height: 51px;
-    left: 207px;
-    top: 577px;
-
     border: 2px solid #FF4081;
     border-radius: 62px;
-
-
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 400;
     font-size: 27px;
     line-height: 31px;
-
+    cursor: pointer;
     color: #FF4081;
+    background-color: #e5e5e5;
+}
 
+.botao_titulo_1:hover {
+    color: #ff1664;
+    border: 2px solid #ff1664;
+    font-weight: 500;
+    transition: 300ms;
+
+}
+
+.ilustra-banner {
+    width: 501px;
+    height: 511px;
+    margin-top: 135px;
+    margin-bottom: 70px;
 }
 
 /*segunda parte dos banner's*/
 
 .container_2 {
     display: flex;
-    justify-content: space-between;
-    background: #F7F7F7;
-
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
-
-    height: 730px;
-    width: 1440px;
-    left: 0px;
-    top: 829px;
-    border-radius: 0px;
-
+    background-color: #e5e5e5;
 }
-
-
-.ima... {
-    flex-basis: 100%;
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-
-}
-
-
 
 .titulo {
-
     width: 344px;
     height: 29px;
-    left: 128px;
-    top: 1253px;
-
-    padding: 26px;
-
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
+    margin-top: 45px;
     font-weight: 700;
     font-size: 25px;
     line-height: 29px;
-
     color: #FF4081;
 }
 
 .titulo2 {
-    width: 370px;
+    width: 293px;
     height: 60px;
-    left: 154px;
-    top: 1305px;
-
-    padding: 10px;
-
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
+    margin-left: 25px;
+    margin-top: 25px;
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
-
     color: #000000;
 }
+
+.imagens {
+    margin-top: 110px;
+}
+
 
 .botao {
     width: 233px;
     height: 51px;
-    left: 184px;
-    top: 1391px;
+    margin-top: 40px;
+    margin-bottom: 130px;
     border: none;
     background: #FF4081;
     border-radius: 62px;
-
     border: 30px;
-
-
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-
+    cursor: pointer;
     color: #FFFFFF;
 }
 
-
+.botao:hover {
+    color: #ffffff;
+    border: 2px solid #ff1664;
+    font-weight: 500;
+    transition: 300ms;
+}
 
 .conteudo {
-
-    padding: 50px;
-
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
+    padding-top: 90px;
+    padding-left: 150px;
+    margin-bottom: 80px;
     font-weight: 400;
     font-size: 37px;
     line-height: 43px;
-
     color: #009688;
 }
 
 
 
 /*container_3*/
+
+span {
+    background-color: #e5e5e5;
+}
+
+.declaração {
+    background-color: #e5e5e5;
+    width: 100%;
+}
+
 .container_3 {
+    width: 100%;
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    margin-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 90px;
+}
+
+.icones, .icones_a, .icones_b {
+    background-color: #e5e5e5;
 }
 
 .t1 {
-    width: 363px;
-    height: 90px;
-
+    width: 450px;
+    height: 70px;
+    padding-left: 40px;
+    margin: 0;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 25px;
-
     color: #000000;
+    background-color: #e5e5e5;
 }
 
 .t2 {
-    width: 363px;
-    height: 90px;
-
-
+    width: 450px;
+    height: 70px;
+    padding-left: 40px;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 25px;
-
     color: #000000;
+    background-color: #e5e5e5;
 }
 
-
-
 span {
-
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-
-
     color: #000000;
 }
 
-
-
 .container_4 {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    padding: 30px;
+    justify-content: center;
+    margin-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 150px;
+    background-color: #F7F7F7
 }
 
 .t3 {
-    width: 363px;
-    height: 90px;
-
-
+    width: 450px;
+    height: 70px;
+    padding-left: 40px;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 25px;
-
     color: #000000;
+    background-color: #e5e5e5;
 }
 
 .t4 {
-    width: 363px;
-    height: 90px;
-
-
+    width: 450px;
+    height: 70px;
+    padding-left: 40px;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 25px;
-
     color: #000000;
+    background-color: #e5e5e5;
 }
 
 .container_5 {
     display: flex;
     flex-direction: row;
-
     height: 730px;
-    width: 1440px;
     left: 0px;
     top: 2260px;
 
@@ -307,9 +258,6 @@ span {
 .pg2 {
     width: 128px;
     height: 23.42px;
-    left: 852px;
-    top: 1886.58px;
-
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -324,9 +272,6 @@ span {
 
     width: 363px;
     height: 73.65px;
-    left: 255px;
-    top: 1996px;
-
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -339,9 +284,6 @@ span {
 .pg4 {
     width: 363px;
     height: 71.62px;
-    left: 840px;
-    top: 1997px;
-
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -351,126 +293,111 @@ span {
     color: #000000;
 }
 
-
-
 /*penúltimo container*/
 
 .bloco {
-    width: 1440px;
-    height: 730px;
-    left: 0px;
-    top: 2260px;
-
     background: #F7F7F7;
 }
 
 .titulo_flex {
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 37px;
-
     color: #009688;
-
-
     padding: 70px;
-    top: 1678px;
-
+    padding-left: 150px;
 }
-
-.container_5.1 {}
 
 .flex {
     display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 35px;
+    margin-bottom: 100px;
+}
+
+.container_retangulos {
     justify-content: center;
 }
 
-
 .retangulos {
-    ] margin-bottom: 6px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+    margin-right: 110px;
     margin: 2px solid black;
-
     width: 319px;
     height: 193px;
-    background: #C4C4C4
+    background: #C4C4C4;
 }
 
 .destacar1 {
-
     height: 114px;
     width: 319px;
-    left: 128px;
-    top: 2671px;
-
-
-
-    font-family: "Ubuntu", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    letter-spacing: 0em;
-    text-align: left;
+    text-align: justify;
+    margin-left: 130px;
 
 }
 
 .destacar2 {
     height: 114px;
     width: 319px;
-    left: 556px;
-    top: 2671px;
-
-    font-family: "Ubuntu", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    letter-spacing: 0em;
-    text-align: left;
+    text-align: justify;
+    margin-left: 130px;
 }
 
 .destacar3 {
     height: 114px;
     width: 319px;
-    left: 984px;
-    top: 2671px;
-    font-family: "Ubuntu", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    letter-spacing: 0em;
-    text-align: left;
+    text-align: justify;
+    margin-left: 130px;
 
 }
 
 .flex span {
-    font-family: "Ubuntu", sans-serif;
     font-size: 27px;
     font-weight: 700;
     line-height: 31px;
     color: #009688
 }
 
+.botao_centro {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
 
 .botao_text {
-
-    box-sizing: border-box;
-    position: absolute;
-
-
-    border: 3px solid #FF4081;
+    width: 290px;
+    height: 50px;
     border-radius: 62px;
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 31px;
+    border: 2px solid #FF4081;
+    outline: none;
+    background-color: #fff;
     color: #FF4081;
-
-
-    height: 40px;
-    width: 289px;
-    left: 740px;
-    top: 2600px;
-    border-radius: 62px;
-
-
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    cursor: pointer;
 }
+
+.botao_text:hover {
+    color: #ffffff;
+    background-color: #FF4081;
+    border: 2px solid #ff1664;
+    font-weight: 500;
+    transition: 200ms;
+}
+
+.bloco {
+    background-color: #e5e5e5;
+}
+
