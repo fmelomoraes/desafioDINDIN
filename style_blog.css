@@ -407,6 +407,7 @@ html, body {
         width: 100%;
         flex-wrap: nowrap;
         overflow-x:scroll;
+        overflow-y: hidden;
     }
 
     .retangulo_2 {
@@ -417,6 +418,7 @@ html, body {
         width: 100%;
         flex-wrap: nowrap;
         overflow-x:scroll;
+        overflow-y: hidden;
     }
 
     .retangulo_3 {
@@ -427,6 +429,7 @@ html, body {
         width: 100%;
         flex-wrap: nowrap;
         overflow-x:scroll;
+        overflow-y: hidden;
     }
 
     .blog_set_1_a {
